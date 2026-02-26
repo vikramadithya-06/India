@@ -8,7 +8,6 @@ body {
   height: 100vh;
   border: 5px inset #0082ff;
   overflow: scroll;
-  text-align: center;
 }
 
 .main {
@@ -16,43 +15,30 @@ body {
   margin: 5px;
   height: 100vh;
   width: 100%;
-  text-align: center;
+  display: flex;
 }
 
 .read {
   display: block;
-  float: left;
-  width: calc(100% / 3);
   height: auto;
   text-align: justify;
-  padding: 5px;
   margin: 0px;
   border: 2px inset #0082ff;
-  text-align: center;
 }
 
 .learn {
   display: block;
-  float: center;
-  width: calc(100% / 3);
   height: auto;
   text-align: justify;
-  padding: 5px;
   margin: 0px;
   border: 2px inset #0082ff;
-  text-align: center;
 }
 
 .calculate {
   display: block;
-  float: right;
-  width: calc(100% / 3);
   height: auto;
   text-align: justify;
-  padding: 5px;
   margin: 0px;
-  border: 2px inset #0082ff;
-  text-align: center;
 }
 
 h1 {
@@ -60,6 +46,14 @@ h1 {
   font-size: 64px;
   font-weight: bold;
   text-align: center;
+}
+
+.read,
+.learn,
+.calculate {
+  border: 2px inset #0082ff;
+  width: 33.33%
+  padding: 5px;
 }
 
 .read h1,
