@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  padding: 0px;
+  padding: 10px;
   margin: 0px;
   height: 100vh;
   border: 5px inset #0082ff;
@@ -11,7 +11,7 @@ body {
   text-align: center;
 }
 
-main {
+.main {
   padding: 5px;
   margin: 5px;
   height: 100vh;
@@ -19,7 +19,7 @@ main {
   text-align: center;
 }
 
-read {
+.read {
   display: block;
   float: left;
   width: calc(100% / 3);
@@ -30,7 +30,7 @@ read {
   border: 2px inset #0082ff;
 }
 
-learn {
+.learn {
   display: block;
   float: center;
   width: calc(100% / 3);
@@ -41,7 +41,7 @@ learn {
   border: 2px inset #0082ff;
 }
 
-calculate {
+.calculate {
   display: block;
   float: right;
   width: calc(100% / 3);
