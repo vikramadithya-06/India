@@ -20,6 +20,8 @@ main {
 }
 
 read {
+  display: block;
+  float: left;
   width: calc(100% / 3);
   height: auto;
   text-align: justify;
@@ -29,6 +31,8 @@ read {
 }
 
 learn {
+  display: block;
+  float: center;
   width: calc(100% / 3);
   height: auto;
   text-align: justify;
@@ -38,6 +42,8 @@ learn {
 }
 
 calculate {
+  display: block;
+  float: right;
   width: calc(100% / 3);
   height: auto;
   text-align: justify;
