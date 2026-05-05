@@ -1,0 +1,31 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 10px;
+  border: 5 px inset blue;
+}
+
+svg {
+  display: block;
+  width: 40px;
+  float: left;
+  height: 100%;
+}
+
+nav {
+  display: block;
+  float: left;
+  width: 20%
+  background-color: blue;
+  height: 100%;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+a {
+  font-size: 24px;
+}
