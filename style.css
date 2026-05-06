@@ -17,8 +17,8 @@ svg {
 nav {
   display: block;
   float: left;
-  width: 20%
-  background: blue;
+  border: 3px inset blue;
+  width: 20%;
   height: 100%;
 }
 
@@ -30,7 +30,7 @@ a {
   font-size: 24px;
 }
 
-@media(min-width: 768px;) {
+@media(max-width: 768px) {
   h4 {font-size: 20px;}
   a {font-size: 18px;}
 }
