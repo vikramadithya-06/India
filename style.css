@@ -29,3 +29,8 @@ h4 {
 a {
   font-size: 24px;
 }
+
+@media(min-width: 768px;) {
+  h4 {font-size: 20px;}
+  a {font-size: 18px;}
+}
